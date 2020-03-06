@@ -2,10 +2,27 @@
 $A = 100;
 $B = 2;
 
-if($A % 2 == 1){
-    echo 'Número ímpar';
-}else{
-    echo 'Número par';
+echo "while: ";
+$i = 0;
+while ($i < 10){
+    echo $i;
+    $i++;
 }
 
-print $soma;
+echo '<br>do...while:  ';
+$i = 0;
+do{
+    echo $i;
+    $i++;
+}while($i < 10);
+
+echo '<br> for:  ';
+for($i = 0; $i < 10; $i++){
+    echo $i;
+}
+
+echo '<br> foreach:  ';
+$i = [0,1,2,3,4,5,6,7,8,9];
+foreach($i as $j){
+    echo $j;
+}
