@@ -1,7 +1,11 @@
 <?php 
-$A = 3;
-$B = 3;
+$A = 100;
+$B = 2;
 
-$soma = $A ** $B;
+if($A % 2 == 1){
+    echo 'Número ímpar';
+}else{
+    echo 'Número par';
+}
 
 print $soma;
