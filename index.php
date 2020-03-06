@@ -1,4 +1,7 @@
 <?php 
-$mensagem ='hello word!';
+$A = 3;
+$B = 3;
 
-echo $mensagem;
+$soma = $A ** $B;
+
+print $soma;
