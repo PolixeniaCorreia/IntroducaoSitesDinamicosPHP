@@ -1,1 +1,4 @@
-<?php echo 'hello word';
+<?php 
+$mensagem ='hello word!';
+
+echo $mensagem;
